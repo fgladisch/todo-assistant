@@ -1,7 +1,7 @@
 {
   "dockerfile_lines": [],
   "graphs": {
-    "agent": "./src/index.ts:graph"
+    "agent": "./src/main.ts:graph"
   },
   "env": ".env",
   "node_version": "20"

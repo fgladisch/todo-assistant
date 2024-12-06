@@ -5,14 +5,18 @@
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc --project tsconfig.json"
+    "build": "tsc --project tsconfig.json",
+    "auth": "ts-node --project tsconfig.json src/auth.ts"
   },
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
   },
   "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
     "@langchain/core": "^0.3.22",
     "@langchain/langgraph": "^0.2.26",
-    "@langchain/openai": "^0.3.14"
+    "@langchain/openai": "^0.3.14",
+    "googleapis": "^105.0.0"
   }
 }
